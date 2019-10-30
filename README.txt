@@ -1,3 +1,3 @@
-це не корінь.
-це зерно.
-корінь у папці src.
+launch in console with "gulp" command
+
+
