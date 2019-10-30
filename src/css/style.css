@@ -28,6 +28,10 @@ img.item-image {
   width: 100%;
   padding: 10px; }
 
+.item-info {
+  display: flex;
+  justify-content: center; }
+
 .item-info-entity {
   margin: 4%; }
 
@@ -47,15 +51,16 @@ div.item:hover {
   border: 2px darkgray solid; }
 
 a.item-name {
+  display: block;
   font-weight: bold;
   font-size: 32px;
   text-decoration: none;
   color: #ebc034;
   margin: 0; }
 
-a.item-name p {
-  text-decoration: none; }
-
+/* a.item-name p {
+     text-decoration: none;
+}*/
 button.buy-btn {
   background-color: black;
   color: white;
